@@ -1,0 +1,305 @@
+a{
+    text-decoration: none;
+}
+
+*{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+body{
+    margin-bottom: 20px;
+}
+
+p{
+    font-style: none;
+}
+
+header{
+    background-color: black;
+    top: 0;
+    left: 0;
+    width: 100vw;
+    height: 8%;
+    padding-left: 45px;
+    padding-top: 8px;
+    padding-bottom: 8px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    z-index: 99;
+    position: fixed;
+
+}
+
+header img{
+    width: 30px;
+    height: 30px;
+    display: flex;
+}
+
+header nav{
+    color: #EC9819;
+    justify-content: flex-end;
+    margin-right: 5%;
+}
+
+header nav a{
+    color: #EC9819;
+    padding: 5px;
+}
+
+header nav a:hover{
+   background-color: #EC9819; 
+    color: white;
+    border-radius: 3px;
+}
+
+
+#menu{
+    padding-top: 18rem;
+    padding-left: 2rem;
+    padding-bottom: 7rem;
+    padding-right: 2rem;
+    background-image:url(./imgs/Landing\ Page\ \(SEM\ VSL\)\ \(8\).png);
+    background-size: cover;
+    width: 100vw;
+}
+
+#menu h1{
+    color: #EC9819;
+    font-size: 3rem;
+    font-style: italic;
+    font-weight: 800;
+    padding-bottom: 1rem;
+}
+
+#menu p{
+    color: white;
+    font-size: 1.1rem;
+    margin-bottom: 2rem;
+}
+
+#menu a h3{
+    background-color: transparent;
+    color: #EC9819;
+    border: 2px solid #EC9819;
+    padding-left: 2rem;
+    padding-right: 2rem;
+    padding-top: 1rem;
+    padding-bottom: 1rem;
+    width: fit-content;
+    border-radius: 12px;
+    text-decoration: none;
+}
+
+#menu a h3:hover{
+    background-color: #EC9819;
+    color: white;
+    transform: scale(1.1);
+    transition: .3s;
+}
+
+#menu a h3:after{
+    transform: scale(1);
+    transition: .3s;
+}
+
+#cursos{
+    padding-top: 50px;
+    padding-bottom: 50px;
+    margin: auto;
+    background-color: white;
+    width: 100vw;
+    justify-content: center;
+}
+
+#cursos h2{
+    margin: auto;
+    width: fit-content;
+    height: fit-content;
+    text-align: center;
+    font-size: 1.8rem;
+    font-weight: 700;
+    font-style: italic;
+    color: #EC9819;
+    margin-bottom: 2rem;
+}
+
+.imgslink{
+    margin: auto;
+}
+
+#cursos img{
+    margin-right: 10px;
+    width: 270px;
+    height: 337.5px;
+    align-items: center;
+    border-radius: 10px;
+    margin-bottom: 2rem;
+}
+
+
+#cursos a img:hover{
+    transform: scale(1.1);
+    color: #EC9819;
+    transition: .3s linear;
+}
+
+#cursos p{
+    font-size: 1.8rem;
+    color: black;
+    font-style:normal;
+    font-weight: 400
+}
+
+.telascontainer {
+    margin-top: 6rem;
+    display: flex;
+    background-color: white;
+    width: 100vw;
+}
+
+.telascontainer .textcontainertelas{
+    background-color: white;
+    text-align: left;
+}
+
+.telascontainer .textcontainertelas span{
+    color: black;
+    font-size: 3rem;
+    font-weight: 600;
+}
+
+.telascontainer p{
+    margin-top: 2rem;
+}
+
+.imgcontainertelas{
+    background-color: white;
+    display: flex;
+    width: 100%;
+}
+
+.imgcontainertelas img{
+    width: 1080px;
+}
+
+#planos{
+    margin-top: 3rem;
+    background-color: #EC9819;
+    margin: auto;
+    padding-bottom: 3rem;
+}
+
+
+#planos h2{
+    padding-top: 1.8rem;
+    text-align: center;
+    color: white;
+    margin-bottom: 1.8rem;
+    font-weight: 400;
+}
+
+.precoscontainer{
+    width: 100%;
+    display: flex;
+    margin: auto;
+    font-size: 1.3rem;
+    justify-content: center;
+}
+
+.cardprecoass{
+    background-color: white;
+    color: #EC9819;
+    width: fit-content;
+    height: fit-content;
+    padding: 25px;
+    border-radius: 12px;
+    margin-right: 3rem;
+}
+
+
+.cardprecoavulso{
+    background-color: transparent;
+    border: 2px solid white;
+    border-radius: 12px;
+    padding: 25px;
+    color: white;
+    width: fit-content;
+    height: fit-content;
+}
+
+
+.cardprecoass .infoprecoass{
+    font-size: 1.2rem;
+    text-align: center;
+    margin-top: 1.5rem;
+    margin-bottom: 1.5rem;
+}
+
+
+.cardprecoavulso .infoprecoavulso{
+    font-size: 1.2rem;
+    text-align: center;
+    margin-top: 1.5rem;
+    margin-bottom: 1.5rem;
+}
+
+.titlecard{
+    font-size: 3rem;
+    font-weight: 700;
+    text-align: center;
+    margin: auto;
+}
+
+.precoass{
+    font-size: 4rem;
+    font-weight: 700;
+    text-align: center;
+}
+
+.precoavulso{
+    font-size: 4rem;
+    font-weight: 700;
+    text-align: center;
+}
+
+.cliqueaquiass{
+    width: 100%;
+    color: #EC9819;
+    border: none;
+    border-top: 2px solid #EC9819;
+    background-color: transparent;
+    padding-top: 15px;
+    font-size: 1.6rem;
+    font-weight: 600;
+}
+
+.cliqueaquiass:hover{
+    color: #ec9819c2;
+}
+
+.cliqueaquiavulso{
+    width: 100%;
+    color: white;
+    border: none;
+    border-top: 2px solid white;
+    background-color: transparent;
+    padding-top: 15px;
+    font-size: 1.6rem;
+    font-weight: 600;
+}
+
+.cliqueaquiavulso:hover{
+    color: rgba(255, 255, 255, 0.452);
+}
+
+.cardprecoass:hover{
+    transform: scale(1.1);
+}
+
+.cardprecoavulso:hover{
+    transform: scale(1.1);
+}
